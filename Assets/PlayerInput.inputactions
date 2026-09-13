@@ -7,9 +7,19 @@
             "id": "5aa3b07a-f974-404d-959f-f45500061420",
             "actions": [
                 {
-                    "name": "Advance",
+                    "name": "Start",
                     "type": "Button",
                     "id": "44af405c-784d-46c3-b2a3-2f217ec985dd",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "OpenShop",
+                    "type": "Button",
+                    "id": "0e8c6246-d431-4725-8ce8-e5e1286127a0",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -25,7 +35,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Advance",
+                    "action": "Start",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -36,7 +46,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Advance",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad86e92e-e163-411b-82c5-df2ef0cc5786",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenShop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "62b13a8e-ea9b-4308-ab22-dc7898a1e4f2",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "OpenShop",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
